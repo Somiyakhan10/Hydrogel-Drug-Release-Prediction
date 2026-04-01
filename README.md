@@ -30,17 +30,19 @@
 ## 📸 Dashboard Screenshots
 
 ### Main Dashboard Interface
-![Main Dashboard](image.png)
+<img width="947" height="413" alt="image" src="https://github.com/user-attachments/assets/bab50c73-1667-45fe-bb1f-e0c9129aa3ea" />
 
 *The interactive dashboard showing all input parameters and prediction results*
 
 ### Drug Release Prediction
-![Drug Release Prediction](image.png)
+<img width="944" height="439" alt="image" src="https://github.com/user-attachments/assets/707329cb-33ec-466f-b6ec-fe9ad922204c" />
+
 
 *Real-time prediction of drug release concentration with confidence intervals*
 
 ### Model Performance Metrics
-![Model Metrics](image.png)
+<img width="946" height="429" alt="image" src="https://github.com/user-attachments/assets/1520bbb5-39b2-4c2d-a5dc-062612aa1474" />
+
 
 *Performance comparison between Drug Release and Efficacy models*
 
