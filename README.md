@@ -1,29 +1,50 @@
-# 💊 Hydrogel Drug Release & Efficacy Prediction System
+# Hydrogel Drug Release Prediction System
 
-![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+A machine learning-powered web application that predicts drug release profiles and therapeutic efficacy of hydrogels based on formulation parameters. This tool helps researchers and pharmaceutical scientists optimize polymer formulations for controlled drug delivery systems.
 
-## 🧪 Project Overview
+**Author: Somiya Khan**
 
-**Hydrogel Drug Release Prediction System** is a machine learning-powered web application that predicts drug release profiles and therapeutic efficacy of hydrogels based on formulation parameters. This tool helps researchers and pharmaceutical scientists optimize polymer formulations for controlled drug delivery systems.
+---
 
-### 🎯 Key Features
+## 📊 Drug Release & Efficacy Distributions
 
-- ✅ **Dual Prediction Models**: 
-  - Predicts 48-hour cumulative drug release (mg/ml)
-  - Predicts therapeutic efficacy score (0-1 normalized)
-- ✅ **5 Key Input Parameters**:
-  - Polymer Type (PEG, Gelatin, Chitosan)
-  - Polymer Concentration (0.5-10.0%)
-  - Crosslink Density (0.1-1.0)
-  - Temperature (20-40°C)
-  - pH (5.5-7.4)
-- ✅ **High Accuracy Models**: R² > 0.98 for drug release, R² > 0.88 for efficacy
-- ✅ **Interactive Dashboard**: User-friendly interface with real-time predictions
-- ✅ **Model Comparison**: Gradient Boosting vs Random Forest performance analysis
-- ✅ **Feature Importance**: Understand which parameters most affect outcomes
+| Drug Release at 48h (mg/ml) | Efficacy Score |
+|:---------------------------:|:--------------:|
+<img width="1168" height="395" alt="image" src="https://github.com/user-attachments/assets/bb58993e-13af-4aec-9dea-2a1eacd91341" />
+
+
+---
+
+## 📋 Sample Predictions by Polymer Type
+
+| Polymer Type | Drug Release (mg/ml) | Efficacy Score |
+|--------------|---------------------|----------------|
+| Chitosan | 24.5 | 0.95 |
+| Gelatin | 21.5 | 0.85 |
+| PEG | 11.5 | 0.65 |
+
+---
+
+## 📊 Drug Release & Efficacy Score by Polymer Type
+
+<img width="1161" height="405" alt="image" src="https://github.com/user-attachments/assets/def7c721-e0ba-4d47-8adc-d34804837fed" />
+
+
+*Comparison of drug release (mg/ml) and efficacy score across different polymer types (Chitosan, Gelatin, PEG)*
+
+---
+
+## 🎯 Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **Dual Prediction Models** | Predicts 48-hour cumulative drug release (mg/ml) and therapeutic efficacy score (0-1 normalized) |
+| **5 Input Parameters** | Polymer Type, Polymer Concentration, Crosslink Density, Temperature, pH |
+| **High Accuracy** | R² > 0.98 for drug release, R² > 0.88 for efficacy |
+| **Interactive Dashboard** | User-friendly interface with real-time predictions |
+| **Model Comparison** | Gradient Boosting vs Random Forest performance analysis |
+| **Feature Importance** | Understand which parameters most affect outcomes |
+
 
 ---
 
